@@ -1,0 +1,10 @@
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    color: blue;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
