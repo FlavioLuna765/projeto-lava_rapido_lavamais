@@ -1,9 +1,57 @@
 body {
-    background-color: darkgray;
+    height: 45vh;
+    width: 85%;
+    background-image: url(../imagens/pexels-jan-kopřiva-3354648.jpg);
+    background-position: 100% 0;
+    background-repeat: none;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     color: blue;
     font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email {
+    border-radius: 16px;
+    border: 0px;
+    font-size: 16px;
+    height: 28px;
+    min-width: 125px;
+
+}
+
+.senha {
+    border-radius: 16px;
+    border: 0px;
+    font-size: 16px;
+    height: 28px;
+    min-width: 125px;
+
+}
+
+.btn_0 {
+    background-color: green;
+    color: white;
+    border-radius: 16px;
+    border: 0px;
+    font-size: 16px;
+    height: 28px;
+    min-width: 125px;
+}
+
+.btn_1 {
+    background-color: blue;
+    color: white;
+    border-radius: 16px;
+    border: 0px;
+    font-size: 16px;
+    height: 28px;
+    min-width: 125px;
+
 }

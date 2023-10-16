@@ -5,28 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/login.css">
+
+    <!--
+        function Aviso(msg){
+            alert(msg);
+            
+        }
+      -->
     
 </head>
 <body>
     <center>
         <h1>Login</h1>
 
-        <img src="" alt="" width="200">
+        <img src="imagens/login.png" alt="login" width="120">
         <br>
         <br>
         <br>
 
         <form action="index.html" method="POST">
-            <input type="text" placeholder="E-mail">
+            <input type="text" class="email" placeholder="Digite seu e-mail" minlength="30">
             <br>
-            <input type="password" placeholder="Senha">
+            <input type="password" class="senha" placeholder="Digite sua senha" minlength="8" maxlength="16">
             <br>
-            <input type="submit" value="Fazer Login">
+            <input type="submit" class="btn_0" value="Fazer Login">
+            <input type="reset" onclick="Aviso('Dados limpos com sucesso ! , digite novamnete !');" class="btn_1">
             <br>
             <a href="esqueci-senha.html"> Esqueci a minha senha</a>
         </form>
-
     </center>
+    <script src="javascripts/login.js"></script>
     
 </body>
 </html>
