@@ -17,12 +17,17 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+input {
+    width: 190px;
+}
+
 .email {
+    width: 190px;
     border-radius: 16px;
     border: 0px;
     font-size: 16px;
     height: 28px;
-    min-width: 125px;
+    wi
 
 }
 

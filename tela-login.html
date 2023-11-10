@@ -26,12 +26,16 @@
         <form action="index.html" method="POST">
             <input type="text" class="email" placeholder="Digite seu e-mail" minlength="30">
             <br>
+
             <input type="password" class="senha" placeholder="Digite sua senha" minlength="8" maxlength="16">
             <br>
-            <input type="submit" class="btn_0" value="Fazer Login">
-            <input type="reset" onclick="Aviso('Dados limpos com sucesso ! , digite novamnete !');" class="btn_1">
+
+            <input type="submit" onclick="entra(); return false">
+
+            <input type="reset" class="btn_1">
             <br>
             <a href="esqueci-senha.html"> Esqueci a minha senha</a>
+            
         </form>
     </center>
     <script src="javascripts/login.js"></script>
