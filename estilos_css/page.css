@@ -100,3 +100,9 @@ header ul li a {
 .banner h2 {
     color: #fff;
 }
+
+footer {
+    background-color: #777;
+    padding: 2px;
+    text-align: center;
+}
